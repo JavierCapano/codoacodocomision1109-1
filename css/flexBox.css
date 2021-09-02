@@ -1,0 +1,36 @@
+#justify{
+    display: flex;
+   justify-content: center;/*para centrar los hijos*/
+}
+.primer{
+    width: 30%;
+    /*height: 150px;*/
+    background-color: blueviolet;
+    float:left;
+}
+.primer::after{
+    content: 'Este es después del contenido';
+    color: white;
+    font-size: 20px;
+}
+.primer::before{
+    content: "Este es antes del contenido";
+    color:yellow;
+
+}
+.primer::first-letter{
+    color:blue;
+    font-size: 30px;
+}
+.blue{
+    background-color: blue;
+}
+li{
+    display: inline;
+}
+span{
+    display: block;
+}
+.principal{
+    display: flex;
+}
